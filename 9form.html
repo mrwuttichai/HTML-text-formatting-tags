@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel reservation form</title>
+</head>
+<body>
+    <form>
+         <h1>Travel reservation form</h1>
+
+         <h3>Full name*:</h3> 
+            <input type="text" id="name" placeholder="FirstName LastName">
+
+        <h3>Email address*:</h3>
+            <input type="text" id="email" placeholder="Email Address">
+
+        <h3>Select Tour Package*:</h3>
+      
+            <select id="TourPackage" id="TourPackage">
+              <option value="Japan">Japan</option>
+              <option value="Thailand">Thailand</option>
+              <option value="Singapore">Singapore</option>
+           </select> 
+
+        <h3>Arrival date*:</h3>
+            <input type="date" id="date" placeholder="m/d/y">
+
+        <h3>Number of persons*:</h3>
+            <input type="number" id="number" placeholder="Unknow_type">
+
+        <h3>What would you want to avail?*</h3>
+            <input type="checkbox" id="avail1" name="avail1" value="Boarding">
+            <label for="avail1"> Boarding</label><br>
+            <input type="checkbox" id="avail2" name="avail2" value="Fooding">
+            <label for="avail2"> Fooding</label><br>
+            <input type="checkbox" id="avail3" name="avail3" value="Sight seeing">
+            <label for="avail3"> Sight seeing</label><br>
+ 
+        <h3>Discount Coupon code:</h3>
+            <input type="text" id="code" placeholder="Unknow_type">
+
+        <h3>Terms and conditions*:</h3>
+            <input type="radio" id="agree" name="terms_and_conditions" value="I agree">
+           <label for="agree"> I agree</label><br>
+           <input type="radio" id="disagree" name="terms_and_conditions" value="I disagree">
+           <label for="disagree"> I disagree</label><br>
+           <input type="button" id="submit" name="submit" value="Complete Reservation"</form> 
+           
+    </form>
+    
+</body>
+</html>
